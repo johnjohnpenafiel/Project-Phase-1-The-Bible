@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+	margin: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 85px;
+    margin: 30px;
+}
+
+.verse-number {
+    font-size: 0.7em; /* Adjust the font size as needed */
+    /* Add any other styling for verse numbers here */
+}
+
+select {
+    width: 140px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center;
+}
+
+.selectors {
+    margin: 50px;
+    width: 395px;
+}
+
+p {
+    margin: 65px;
+}
+
+#navigation-bar  {
+    margin: 50px;
+}
