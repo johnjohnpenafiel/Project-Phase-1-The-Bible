@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 p.innerHTML = stripHtml(selection.content);
                 p.classList.add('verse-text');
                 article.appendChild(p);
+                paragraphTitle(selection.reference);
             })
             .catch(error => console.error('Error loading chapter', error));
     };
@@ -121,6 +122,13 @@ document.addEventListener('DOMContentLoaded', () => {
     selectors.addEventListener("mouseleave", (event) => {
         event.target.style.fontWeight = "normal";
     });
+
+    // Chapter h2 Title function
+    function paragraphTitle (title) {
+        const h2 = document.querySelector('h2');
+        h2.textContent = title
+        return h2.append(h2)
+    }
 
 });
 
